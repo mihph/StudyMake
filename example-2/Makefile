@@ -21,5 +21,5 @@ $(RELEASE_EXEC): $(SOURCE)
 	g++ $(RELEASE_FLAGS) $(SOURCE) -o $(RELEASE_EXEC)
 
 clean:
-	rm -f $(RELEASE_EXEC) $(DEBUG_EXEC)
+	rm -f $(RELEASE_EXEC) $(DEBUG_EXEC
 
